@@ -1,0 +1,215 @@
+/*html, body {
+  height: 100%;
+  width: 100%;
+}*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 20px;
+  }
+
+  .logo{
+    font-size: 27px;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  nav{
+    background-color: #DFE9F5;
+    padding: 2vh 0vh;
+    position: sticky;
+    top: 0px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav li {
+    list-style: none;
+    text-align: center;
+  }
+
+  .hero {
+    height: 50vh;
+    background-size: cover;
+    background-image: url(img/jimmy-dean-L8V802a8lz0-unsplash2.jpg);
+    background-position:center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 5px;
+  }
+
+  .cards_receitas {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    
+    margin: 10px 5px;
+  }
+
+  .footer {
+    margin-top: 50px;
+    height: 10vh;
+    width: 100%;
+    background-color: #DFE9F5;
+  }
+
+  .footer_receitas {
+    margin-top: 350px;
+    height: 10vh;
+    width: 100%;
+    background-color: #DFE9F5;
+  }
+
+  .footer_receitas .acesse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+  }
+
+  .footer_receitas .redes {
+    display: flex;
+    /* align-items: flex-end; */
+    padding-top: 5px;
+    justify-content: space-around;
+    height: 70%;
+    width: 100%;
+  }
+
+  .footer .acesse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+  }
+
+  .footer .redes {
+    display: flex;
+    /* align-items: flex-end; */
+    padding-top: 5px;
+    justify-content: space-around;
+    height: 70%;
+    width: 100%;
+  }
+
+  .card {
+    text-align: center;
+    box-shadow: 2px 5px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 15px 15px;
+    width: 15vw;
+ }
+
+ .card h3 {
+    margin-top: 20px;
+ }
+
+ .card .foto1 {
+    background-image: url(img/salgados.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 40px;
+ }
+
+ .card .foto2 {
+    background-image: url(img/doces.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 40px;
+ }
+
+ .card .foto3 {
+    background-image: url(img/salada.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 40px;
+ }
+
+ .card .croquete {
+  background-image: url(img/croquete.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+ }
+
+ .card .kibe {
+  background-image: url(img/kibe.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+ }
+
+ .card .lanche_natural {
+  background-image: url(img/lanche_natural.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+ }
+
+ .card .torta {
+  background-image: url(img/torta_frutas_vermelhas.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+ }
+
+ .card .cocada {
+  background-image: url(img/cocada.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+ }
+
+ .card .caesar {
+  background-image: url(img/SALADA-CAESAR-RECEITA.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+ }
+
+ .card .vinagrete {
+  background-image: url(img/vinagrete.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+ }
+
+ .card .tropical {
+  background-image: url(img/tropical.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+ }
+
+ .card .bolo {
+  background-image: url(img/bolo_choc.png);
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+ }
+
+ .card:hover {
+    box-shadow: 3px 6px 12px 0 rgba(0, 0, 0, 0.2);
+ }
