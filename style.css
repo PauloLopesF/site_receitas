@@ -67,6 +67,9 @@
   }
 
   .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     margin-top: 50px;
     height: 10vh;
     width: 100%;
@@ -74,6 +77,9 @@
   }
 
   .footer_receitas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     margin-top: 350px;
     height: 10vh;
     width: 100%;
@@ -82,15 +88,17 @@
 
   .footer_receitas .acesse {
     display: flex;
-    align-items: center;
     justify-content: center;
+    grid-column: 2;
+    grid-row: 1;
     height: 30%;
     width: 100%;
   }
 
   .footer_receitas .redes {
     display: flex;
-    /* align-items: flex-end; */
+    grid-column: 2;
+    grid-row: 2;
     padding-top: 5px;
     justify-content: space-around;
     height: 70%;
@@ -99,15 +107,17 @@
 
   .footer .acesse {
     display: flex;
-    align-items: center;
     justify-content: center;
+    grid-column: 2;
+    grid-row: 1;
     height: 30%;
     width: 100%;
   }
 
   .footer .redes {
     display: flex;
-    /* align-items: flex-end; */
+    grid-column: 2;
+    grid-row: 2;
     padding-top: 5px;
     justify-content: space-around;
     height: 70%;
